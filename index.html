@@ -5,13 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="main.js"></script>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/b1c6f28251.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Javivy's Portfolio</title>
 </head>
 <body>
     <!-- NAVBAR -->
-    
+    <nav class="navbar navbar-expand-lg menu shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="logo image">
+            <h2>avivy</h2>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Knowledge</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Get Started</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- INTRO SECTION  -->
+      <section id="home" class="intro-section">
+        <div class="container">
+          <div class="row align-items-center text-white">
+            <div class="col-md-6 intros">
+              <h1 class="display-2">
+                <span class="display-2--intro">Hello! I'm Javier</span>
+                <span class="display-2--description lh-base">I'm a very passionate self-taught programmer with knowledge in HTML, CSS, JavaScript, etc... Let's build our world!</span>
+              </h1>
+              <button type="button" class="rounded-pill btn-rounded">Get Started
+                <span>
+                  <i class="fa-solid fa-circle-chevron-right"></i>
+                </span>
+              </button>
+            </div>
+            <div class="col-md-6 intros">
+              <div class="image-box"></div>
+            </div>
+          </div>
+        </div>
+      </section>
 </body>
 </html>
